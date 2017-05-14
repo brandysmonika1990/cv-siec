@@ -1,0 +1,267 @@
+/* Główne style - START */
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.6em;
+}
+
+h1 span {
+    color: #31b0d5;
+    line-height: 2em;
+}
+
+
+/* Główne style - STOP */
+
+/* Style dla wszystkich boxów - START */
+
+.box {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.box2 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    color: #fff;
+}
+
+.box-in {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 2s;
+}
+
+.row .box .box-front .icons {
+    margin-top: 80px;
+    line-height: 2em;
+}
+
+
+/* Style dla wszystkich boxów - STOP */
+
+/* Animacja dla wszystkich boxów - START */
+
+.box:hover .box-front {
+    transform: rotateY(180deg);
+}
+
+.box:hover .box-back {
+    transform: rotateY(0deg);
+}
+
+.box-front {
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.box-back {
+    transform: rotateY(180deg);
+}
+/* Animacja dla wszystkich boxów - STOP */
+
+/* Wspólny padding dla icons awesome START */
+
+.box-back .fa {
+    padding: 10px;
+}
+/* Wspólny padding dla icons awesome STOP */
+
+/* Style dla box 1 - Dane personalne START */
+
+#box-front1 {
+    background-color: #be2c54;
+}
+
+#box-back1 {
+    background-color: rgba(196, 65, 101, 0.5);
+}
+
+.box-back h3 {
+    line-height: 0.9em;
+}
+
+/* Style dla box 1 - Dane personalne STOP */
+
+/* Style dla box 2 - Doświadczenie START */
+
+#box-front2 {
+    background-color: #005899;
+}
+
+#box-back2 {
+    background-color: #003b66;
+}
+
+.box-back2a h3 {
+    margin-top: 25%;
+    font-size: 0.5em;
+}
+
+.box-back2a p {
+    font-size: 0.3em;
+}
+
+/* Style dla box 2 - Doświadczenie STOP */
+
+/* Style dla box 3 - Wykształcenie START */
+
+#box-front3 {
+    background-color: #2b8a40;
+}
+
+#box-back3 {
+    background-color: #154520;
+}
+
+#box-back3 h3 {
+    font-size: 0.9em;
+    margin-top: 10%;
+}
+
+#box-back3 h4 {
+    font-size: 0.7em;
+}
+
+#box-back3a {
+    background-color: #154520;
+}
+
+#box-back3b {
+    background-color: #168830;
+}
+
+#box-back3c {
+    background-color: #149d34;
+}
+
+/* Style dla box 3 - Wykształcenie STOP */
+
+/* Style dla box 4 - Certyfikaty START */
+
+#box-front4 {
+    background-color: #cfd30e;
+}
+
+#box-back4 {
+    background-color: #8a8d09;
+}
+
+#box-back4 h4 {
+    font-size: 0.8em;
+}
+
+.box-back4-text {
+    margin-top: 5%;
+}
+
+#box-back4b {
+    background-color: #a1a40b;
+}
+
+#box-back4c {
+    background-color: #b8bc0c;
+}
+
+#box-back4d {
+    background-color: #cfd30e;
+}
+
+#box-back4e {
+    background-color: rgba(230, 235, 16, 0.39);
+}
+
+/* Style dla box 4 - Certyfikaty STOP */
+
+/* Style dla box 5 - Umiejętności START */
+
+#box-front5 {
+    background-color: #8f4040;
+}
+
+#box-back5 {
+    background-color: #662e2e;
+}
+
+#box-back5 h4 {
+    font-size: 0.6em;
+}
+
+.box-back5-text {
+    margin-top: 20%;
+}
+
+/* Style dla box 5 - Umiejętności STOP */
+
+/* Style dla box 6 - HOBBY START */
+
+#box-front6 {
+    background-color: #8db487;
+}
+
+#box-back6 {
+    background-color: #6d8c69;
+}
+
+.box-back6-text {
+    margin-top: 15%;
+}
+
+/* Style dla box 6 - HOBBY STOP */
+
+/* Style dla box 7 - Kurs fed START */
+
+#box-front7 {
+    background-color: #807f54;
+}
+
+#box-back7 {
+    background-color: #403f2a;
+}
+
+.box-back7-text {
+    margin-top: 5%;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Style dla box 7 - Kurs fed STOP */
+
+
+
